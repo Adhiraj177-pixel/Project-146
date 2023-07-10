@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-entity>
+            <a-camera position = "3 1 15"></a-camera>
+        </a-entity>
+
+        <a-entity position = "0 0 0" rotation = "0 0 0">
+            <a-sky color = "lightblue"></a-sky>
+        </a-entity>
+
+        <a-entity position = "0 0 0" rotation = "0 0 0">
+            <a-sphere color = "#e5a13c" position = "0 5 0" radius = "2"></a-sphere>
+        </a-entity>
+
+        <a-entity position = "0 0 0" rotation = "0 0 0">
+            <a-cylinder color = "yellow" position = "0 0.4 0" height = "6.5" radius = "3"></a-cylinder>
+        </a-entity>
+
+        <a-entity position = "0 0 0" rotation = "0 0 0">
+            <a-sphere color = "blue" position = "0.3 5 5" radius = "0.3"></a-sphere>
+        </a-entity>
+
+        <a-entity position = "0 0 0" rotation = "0 0 0">
+            <a-sphere color = "blue" position = "1.4 5 5" radius = "0.3"></a-sphere>
+        </a-entity>
+
+        <a-entity position = "0 0 0" rotation = "0 0 0" animation = "property: position;'from: 0.5 5 6';'to: 0.5 4.6 6'
+        ;easing:linear; loop: true; dur: 20000">
+            <a-sphere color = "black" position = "0.5 4.8 6" radius = "0.1"></a-sphere>
+        </a-entity>
+
+        <a-entity position = "0 0 0" rotation = "0 0 0" animation = "property: position;'from: 0.5 5 6';'to: 0.5 4.6 6'
+        ;easing:linear; loop: true; dur: 20000">
+            <a-sphere color = "black" position = "1.5 4.8 6" radius = "0.1"></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-cone color = "blue" position = "0 8 0" height = "3" base = "10"></a-cone>
+        </a-entity>
+
+        <a-entity>
+            <a-box color = "blue" position = "1.65 4.7 8" rotation = "17" width = "1" height = "0.15"></a-box>
+        </a-entity>
+
+        <a-entity>
+            <a-box color = "blue" position = "1.55 3.55 8" rotation = "10 10" width = "0.7" height = "0.15"></a-box>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder color = "green" position = "-1.5 -5.7 0" height = "4" radius = "0.7"></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder color = "green" position = "1.5 -5.7 0" height = "4" radius = "0.7"></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder color = "green" position = "3.5 1 0" height = "5" radius = "0.6" rotation = "20 -70"></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder color = "green" position = "-3.7 1 0.3" height = "5" radius = "0.6" rotation = "20 90"></a-cylinder>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere color = "purple" position = "-4.6 -1.8 0.5" radius = "0.8"></a-sphere>
+        </a-entity>
+
+        <a-entity>
+            <a-sphere color = "purple" position = "4.4 -1.8 0.5" radius = "0.8"></a-sphere>
+        </a-entity>
+        
+        <a-entity>
+            <a-box color = "blue" position = "-0.7 -6 2.7"></a-box>
+        </a-entity>
+
+        <a-entity>
+            <a-box color = "blue" position = "1.8 -6 2.7"></a-box>
+        </a-entity>
+    </a-scene>
+</body>
+</html>
